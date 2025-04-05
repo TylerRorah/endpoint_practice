@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "task": "Learn Flask basics",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "task": "Build a To-Do app",
+        "completed": false
+    },
+    {
+        "id": 3,
+        "task": "Test the application",
+        "completed": true
+    },
+    {
+        "id": 4,
+        "task": "Add task editing functionality",
+        "completed": false
+    },
+    {
+        "id": 5,
+        "task": "Deploy the app to Heroku",
+        "completed": false
+    }
+]
