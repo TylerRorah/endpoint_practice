@@ -25,7 +25,9 @@ def home():
 def tasks():
     return render_template("tasks.html")
 
-# @app.route.post("/add")
+@app.route("/add", method="POST")
+def display_add_page():
+    return render_template("add_tasks.html")
 
 # @app.route.put("/update/<id>")
 
