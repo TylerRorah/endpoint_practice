@@ -7,7 +7,7 @@ app = Flask(__name__)
 os.path.exists("tasks.json")
 
 with open("tasks.json", "r") as file:
-    tasks_file = json.load(file)
+    tasks = json.load(file)
 
 def add_tasks(tasks_file):
     #this should be triggered off of a button click on the website
@@ -23,7 +23,7 @@ def home():
 
 @app.route("/tasks", methods=["GET"])
 def tasks():
-    return render_template("tasks.html")
+    # return render_template("tasks.html")
 
 @app.route("/add", method="POST")
 def display_add_page():
